@@ -1,6 +1,6 @@
 echo "Checking Compilation..."
 
-output=$(./fracturing < test_inputs.txt)
+output=$(./fracturing < fracture_inputs.txt)
 
 if [ $? -eq 0 ] ; then
   echo "Pass: Program exited zero"

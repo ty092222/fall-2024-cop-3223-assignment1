@@ -20,7 +20,7 @@ test: build
 	bash check_build.sh
 
 execute: $(TARGET)
-	./$(TARGET) < test_inputs.txt > out.txt
+	./$(TARGET) < fracture_inputs.txt > out.txt
 
 clean: 
 	$(RM) $(TARGET)
